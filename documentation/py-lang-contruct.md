@@ -41,3 +41,14 @@ https://coursehunter.net/course/python-razrabotchik?lesson=6
     ```
     ['__class__', '__class_getitem__', '__contains__', '__delattr__', '__delitem__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__ior__', '__iter__', '__le__', '__len__', '__lt__', '__ne__', '__new__', '__or__', '__reduce__', '__reduce_ex__', '__repr__', '__reversed__', '__ror__', '__setattr__', '__setitem__', '__sizeof__', '__str__', '__subclasshook__', 'clear', 'copy', 'fromkeys', 'get', 'items', 'keys', 'pop', 'popitem', 'setdefault', 'update', 'values']
     ```
+# 3. Типы данных (Простые/Сложные):
+1. Простые (скалярные):
+    1. `NoneType` = None
+    2. Логический тип `bool` = True, False
+    3. Числовые типы: `int, float`: 0,-1,5,3.14,0.0
+2. Сложные (Структурированные):
+    1. Множества `set` = {1,2,3}
+    2. Последовтельности `str,array,tuple` = 'Hello', (1,2,3), [1,2,3]
+    3. Словари `dic` = {1:'1','2','3'}
+3. Муттабельные (Mutable, Изменяемые)
+4. Иммутабельные (Immutable, Неизменяемые)
