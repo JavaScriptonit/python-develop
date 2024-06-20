@@ -53,4 +53,6 @@ https://coursehunter.net/course/python-razrabotchik?lesson=6
 3. Муттабельные (Mutable, Изменяемые)
 4. Иммутабельные (Immutable, Неизменяемые)
 # 4. Циклы:
-1. 
+1. `while` - /Users/andreyshabunov/PhpstormProjects/py-develop/examples/syntax/syntax_while.py
+2. `for` - /Users/andreyshabunov/PhpstormProjects/py-develop/examples/syntax/syntax_for.py
+
