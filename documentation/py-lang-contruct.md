@@ -52,3 +52,5 @@ https://coursehunter.net/course/python-razrabotchik?lesson=6
     3. Словари `dic` = {1:'1','2','3'}
 3. Муттабельные (Mutable, Изменяемые)
 4. Иммутабельные (Immutable, Неизменяемые)
+# 4. Циклы:
+1. 
