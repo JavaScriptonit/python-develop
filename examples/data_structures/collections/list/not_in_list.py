@@ -1,3 +1,4 @@
+# Урок - https://coursehunter.net/course/python-razrabotchik?lesson=8
 # Создаем список
 from ast import NotIn
 

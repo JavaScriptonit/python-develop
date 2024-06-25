@@ -1,3 +1,6 @@
+# Урок - https://coursehunter.net/course/python-razrabotchik?lesson=8
+# Документация - https://www.w3schools.com/python/python_lists_comprehension.asp
+
 # Создаем список фруктов
 fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
 
