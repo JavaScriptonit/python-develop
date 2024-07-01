@@ -1,3 +1,5 @@
+# https://coursehunter.net/course/python-razrabotchik?lesson=9
+
 # a = {1: list, 2: tuple}
 # b = dict({1: list, 2: tuple})
 
@@ -15,6 +17,21 @@ b = dict(one=1, two=2)
 result = a == b
 
 # Оба эти подхода создают один и тот же словарь {'one': 1, 'two': 2}, и сравнение a == b вернет True
-print(a)
-print(b)
+print(a) # {'one': 1, 'two': 2}
+print(b.items()) # dict_items([('one', 1), ('two', 2)])
+print(b.keys()) # dict_keys(['one', 'two'])
+print(b.values()) # dict_values([1, 2])
+
 print(result)
+
+
+# for key, value in b.items():
+#     print(key, value) # one 1, two 2
+
+#
+# >>> {k: k * k for k in range(10)} # получить таблицу значений и их квадратов
+# {0: 0, 1: 1, 2: 4, 3: 9, 4: 16, 5: 25, 6: 36, 7: 49, 8: 64, 9: 81}
+
+# >>> {k: k * k for k in range(10)}[5] # квадрат 5
+# 25
+
