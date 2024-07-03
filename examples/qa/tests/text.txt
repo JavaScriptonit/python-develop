@@ -1,0 +1,23 @@
+def fibonacci(n):
+    if n <= 1:
+        return n
+    else:
+        return fibonacci(n-1) + fibonacci(n-2)
+
+def is_prime(num):
+    if num <= 1:
+        return False
+    for i in range(2, int(num**0.5) + 1):
+        if num % i == 0:
+            return False
+    return True
+
+def print_fibonacci_primes(limit):
+    for i in range(limit):
+        fib = fibonacci(i)
+        if is_prime(fib):
+            print(f"{i}: {fib}")
+
+if __name__ == "__main__":
+    limit = 20
+    print_fibonacci_primes(limit)
